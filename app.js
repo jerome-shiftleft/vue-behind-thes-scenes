@@ -1,4 +1,7 @@
 const app = Vue.createApp({
+  template: `
+    <p>Overwrite</p>
+  `,
   data() {
     return {
       currentUserInput: '',
